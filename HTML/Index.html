@@ -1,16 +1,97 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    
-    <title>Simple Webpage</title>
-    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahesh Guduru - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .content {
+            padding: 2rem;
+            text-align: center;
+        }
+        .content h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .content p {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+        .content .intro {
+            font-size: 1.2rem;
+        }
+        .content .welcome-message {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Simple Webpage</h1>
-        <p id="message">Hello, World!</p>
-        <button onclick="changeText()">Click Me</button>
+    <header>
+        <h1>Mahesh Guduru</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="content">
+        <h1 class="welcome-message">Welcome to My Personal Website</h1>
+        <p class="intro">
+            I am Mahesh Guduru, currently pursuing a Master’s degree in Information Technology Management (ITM) at the University of Wisconsin-Milwaukee. My academic journey is fueled by a passion for technology and its application in business environments, with a strong foundation in artificial intelligence, machine learning, and IT management.
+        </p>
+        <p>
+            My academic focus is aligned with my career aspirations, aiming to leverage skills in AI, machine learning, and strategic IT management in technology and business sectors. During my undergraduate studies, I held the position of Director of Membership Head in the Rotaract Club of IIMC, conducted a Leadership Program for school children, and actively participated in various extracurricular activities. These experiences have honed my leadership, organizational, and problem-solving skills.
+        </p>
+        <p>
+            I am committed to continuous personal and professional development, embracing new technologies, and applying innovative solutions to real-world business challenges.
+        </p>
+        <p>Feel free to explore my site to learn more about my background, projects, and get in touch through the contact page.</p>
+        <p>Thank you for visiting!</p>
     </div>
-    <script src="Script.js"></script>
+    
+    <footer>
+        <p>Contact anytime: <a href="mailto:maheshguduru1302@gmail.com">maheshguduru1302@gmail.com</a></p>
+        <p>&copy; 2024 Mahesh Guduru</p>
+    </footer>
 </body>
 </html>
