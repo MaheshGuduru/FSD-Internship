@@ -1,0 +1,110 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 1em;
+}
+
+/* Header Section */
+.header {
+    background-image: url('header-bg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 5em 1em;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.5em;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 1em;
+}
+
+.feature-box {
+    background-color: #f4f4f4;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+}
+
+.feature-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.feature-box h2 {
+    margin: 0.5em 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #333;
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.testimonial-box {
+    background-color: #444;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 8px;
+    display: inline-block;
+    width: 30%;
+}
+
+.testimonial-box p {
+    font-style: italic;
+}
+
+.testimonial-box h3 {
+    margin: 0.5em 0 0;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
