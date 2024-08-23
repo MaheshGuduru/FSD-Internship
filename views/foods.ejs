@@ -1,0 +1,27 @@
+<!-- views/foods.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food and Nutrition Information</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Food and Nutrition Information</h1>
+        <div class="cards">
+            <% foodItems.forEach(foodItem => { %>
+                <div class="card">
+                    <h2><%= foodItem.name %></h2>
+                    <p><strong>Food Group:</strong> <%= foodItem.foodGroup %></p>
+                    <p><strong>Description:</strong> <%= foodItem.description %></p>
+                    <p><strong>Calories:</strong> <%= foodItem.nutritionalInfo.calories %> kcal</p>
+                    <p><strong>Serving Size:</strong> <%= foodItem.servingSize %></p>
+                    <p><strong>Health Benefits:</strong> <%= foodItem.healthBenefits.join(", ") %></p>
+                </div>
+            <% }); %>
+        </div>
+    </div>
+</body>
+</html>
